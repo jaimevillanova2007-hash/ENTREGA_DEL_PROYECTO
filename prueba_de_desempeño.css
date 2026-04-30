@@ -39,9 +39,7 @@ nav ul {
     display: flex;             /* Places list elements in a row */
     gap: 30px;                 /* 30px space between each menu link */
     list-style: none;          /* Removes default list bullets */
-    margin: 0;                 /* Clears external margins */
-    padding: 0;                /* Clears internal spacing */
-    
+  
 }
 
 nav a {
@@ -78,14 +76,11 @@ nav a {
     display: flex;
 }
 
-.info {
-    flex-grow: 1;              /* Information box takes up the remaining space */
-}
+
 /* Horizontal title style in the multimedia section */
 .texto-horizontal {
     writing-mode: horizontal-tb; /* Ensures text reads from left to right */
-    color: #ffffff;
-    font-size: 2.5rem;
+    color: white;
     text-transform: uppercase;
     margin-bottom: 10px;
     letter-spacing: 5px;       /* Letter spacing for a modern style */
@@ -171,15 +166,7 @@ tbody tr:hover {
     object-fit: cover;         /* Crops the image to fill the space without distortion */
 }
 
-/* Horizontal title style in the multimedia section */
-.texto-horizontal {
-    writing-mode: horizontal-tb; /* Ensures text reads from left to right */
-    color: #ffffff;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    letter-spacing: 5px;       /* Letter spacing for a modern style */
-}
+
 /* Footer in columns */
 .footer_abajo {
     display: flex;                 /* Activates columns */
@@ -195,7 +182,7 @@ tbody tr:hover {
 /* Each block inside the footer */
 .footer_abajo div {
     flex: 1;                      /* All columns take up the same space */
-    min-width: 150px;
+    
 }
 
 /* Logo */
@@ -216,7 +203,3 @@ tbody tr:hover {
     margin-bottom: 50px;
 }
 
-/* Text */
-.footer_abajo p {
-    font-size: 14px;
-}
