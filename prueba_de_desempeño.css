@@ -179,16 +179,9 @@ tbody tr:hover {
     flex-wrap: wrap;              /* Allows wrapping on small screens */
 }
 
-/* Each block inside the footer */
-.footer_abajo div {
-    flex: 1;                      /* All columns take up the same space */
-    
-}
 
-/* Logo */
-.footer-logo {
-    flex: 3;
-}
+
+
 
 /* Image */
 .footer-logo img {
